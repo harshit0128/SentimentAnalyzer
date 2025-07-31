@@ -1,26 +1,37 @@
 # Sentiment Analyzer
+Project Name: Sentiment Analyzer with Visual Report
 
-A simple Python project that detects the sentiment of a given sentence.  
-It tells whether the sentence is **Positive**, **Negative**, or **Neutral** using TextBlob.
+📌 What This Project Does:
+This is a Python program that checks the sentiment of the sentences entered by the user.
 
-## 🧠 Features:
-- Takes user input (any sentence)
-- Uses TextBlob to analyze sentiment
-- Displays result with emoji:
-  - Positive 😊
-  - Negative 😟
-  - Neutral 😐
+It tells whether each sentence is Positive, Negative, or Neutral with emoji using TextBlob..
 
-## 📁 Files in this repo:
-- `sentiment.py` → Main Python script for the sentiment analysis
+After entering multiple sentences, it shows a bar chart showing the number of positive, negative, and neutral sentences using Matplotlib.
 
-## ▶️ How to run:
-1. Install required package:
-                            pip install textblob
+📦 Requirements:
+Python 3
+
+textblob
+
+matplotlib
+
+To install, run:
+
+pip install textblob matplotlib
 python -m textblob.download_corpora
-2. Run the program:
-                  python sentiment.py
-3. Enter any sentence when asked, and it will show the sentiment.
+▶️ How to Run:
+Save the code in a file named sentiment.py
+
+Open terminal or command prompt
+
+Navigate to the folder where sentiment.py is saved
+
+Run the code with:
+
+python sentiment.py
+Enter sentences one by one
+
+Type exit to finish and view the chart
 
 ## 🧑 Author
 Harshit Raj
